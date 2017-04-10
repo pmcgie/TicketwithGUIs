@@ -162,7 +162,6 @@ public class TicketManager {
 
         // Delete ticket
         FinalDeletion();
-
     }
 
     protected void FinalDeletion() throws IOException, ParseException {
@@ -208,6 +207,7 @@ public class TicketManager {
                     "(enter 0 to exit)");
             }
         }
+
         RunInitialMenu();
     }
 
