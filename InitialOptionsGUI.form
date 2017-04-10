@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.Paul_McGie.InitialOptionsGUI">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b13f8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Main Selection Interface"/>
+        </properties>
+      </component>
+      <component id="c02c4" class="javax.swing.JRadioButton" binding="enterTicketRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter Ticket"/>
+        </properties>
+      </component>
+      <component id="4c666" class="javax.swing.JRadioButton" binding="deleteTicketByIDRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete Ticket by ID"/>
+        </properties>
+      </component>
+      <component id="dc015" class="javax.swing.JRadioButton" binding="deleteTicketByIssueRadioButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="false"/>
+          <text value="Delete Ticket by Issue"/>
+        </properties>
+      </component>
+      <component id="19026" class="javax.swing.JRadioButton" binding="searchTicketsByIssueRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Search Tickets by Issue"/>
+        </properties>
+      </component>
+      <component id="dbcc1" class="javax.swing.JRadioButton" binding="displayAllTicketsRadioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Display All Tickets"/>
+        </properties>
+      </component>
+      <component id="387f0" class="javax.swing.JRadioButton" binding="quitRadioButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Quit"/>
+        </properties>
+      </component>
+      <component id="d6bf6" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="allButtonGroup">
+      <member id="c02c4"/>
+      <member id="4c666"/>
+      <member id="dc015"/>
+      <member id="c02c4"/>
+      <member id="4c666"/>
+      <member id="dc015"/>
+      <member id="19026"/>
+      <member id="dbcc1"/>
+      <member id="387f0"/>
+    </group>
+  </buttonGroups>
+</form>
