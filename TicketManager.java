@@ -200,7 +200,6 @@ public class TicketManager {
                 }
             }
 
-
             if (found == false) {
             System.out.println("Ticket ID not found, no ticket deleted");
             deleteID = Input.getPositiveIntInput("Enter ID of ticket to delete" +
