@@ -1,6 +1,5 @@
 package com.Paul_McGie;
 
-import javax.swing.*;
 import java.io.*;
 import java.text.DateFormat;
 import java.text.ParseException;

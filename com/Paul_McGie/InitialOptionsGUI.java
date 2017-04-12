@@ -4,8 +4,6 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import static com.Paul_McGie.TicketManager.*;
-
 /**
  * Created by pmcgie on 4/2/2017.
  */
